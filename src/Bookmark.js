@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Bookmark = styled.div`
-  border: 20px solid ${props => (props.active ? 'black' : 'lightgreen')};
+  border: 20px solid ${props => (props.active ? 'lightgreen' : 'black')};
   border-bottom-color: transparent;
   position: absolute;
   width: 0;

@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
 const FilterButton = styled.button`
-  background: lightyellow;
+  background: ${props => (props.active ? 'lightgreen' : 'black')};
   position: relative;
-  left: 320px;
+  left: 10px;
+  border-radius: 6px;
   height: 50px;
   width: 100px;
   margin: 10px;

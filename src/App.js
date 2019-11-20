@@ -7,7 +7,7 @@ import FilterButton from './FilterButton'
 
 export default function App() {
   let savedData = JSON.parse(localStorage.savedCards || null) || {}
-  const [cards, setCards] = useState(savedData)
+  const [cards, setCards] = useState(CardsData || savedData)
   const [isOnlyBookmarksShown, setOnlyBookmarksShown] = useState(false)
 
   return (
