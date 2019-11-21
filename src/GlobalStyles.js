@@ -13,6 +13,7 @@ body {
   font-family: sans-serif;
   text-align: center;
   height: 100vh;
+  display: 
 
 }`
 
